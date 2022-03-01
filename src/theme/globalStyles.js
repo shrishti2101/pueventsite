@@ -24,7 +24,6 @@ export default function GlobalStyles() {
           width: '100%',
           height: '100%',
           backgroundColor:'#f9fafb'
-         
         },
         '#root': {
           width: '100%',

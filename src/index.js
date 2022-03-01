@@ -13,7 +13,6 @@ ReactDOM.render(
       <GlobalStyles/>
       <App/>
     </ThemeConfig>
-    
   </React.StrictMode>,
   document.getElementById('root')
 );
