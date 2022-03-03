@@ -1,25 +1,19 @@
 import logo from './loading-1.gif';
-import './App.css';
-
+import './App.scss';
+import Register from './Components/Forms/register';
+import SignIn from './Components/Forms/SignIn';
+import { Menu } from '@mui/material';
+import ResponsiveAppBar from './Components/ResponsiveAppBar';
+import StickyFooter from './Components/StickyFooter';
+import Data from  './Components/Data';
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Poornima University Event WebSite
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+  return (<>
+     
+    <ResponsiveAppBar/>
+    <Data/>
+    <StickyFooter/>
+
+    </>
   );
 }
-
 export default App;

@@ -3,10 +3,16 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-
+import Register from './Components/Forms/register';
+import SignIn from './Components/Forms/SignIn';
+import GlobalStyles from './theme/globalStyles';
+import ThemeConfig from './theme'
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <ThemeConfig>
+      <GlobalStyles/>
+      <App/>
+    </ThemeConfig>
   </React.StrictMode>,
   document.getElementById('root')
 );
